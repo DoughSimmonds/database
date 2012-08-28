@@ -1,1 +1,1 @@
-cat mangos\mangos/*.sql > full_db.sql
+cat mangos/mangos/*.sql > full_db.sql
