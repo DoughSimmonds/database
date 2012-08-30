@@ -1,1 +1,1 @@
-copy /a mangos\mangos\*.sql full_db.sql
+copy /a mangos\*.sql full_db.sql
