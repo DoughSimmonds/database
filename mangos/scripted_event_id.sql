@@ -67,6 +67,7 @@ INSERT INTO `scripted_event_id` (`id`, `ScriptName`) VALUES
 (8328,'npc_kroshius'),
 (8502,'event_avatar_of_hakkar'),
 (9735,'event_spell_saronite_barrier'),
+(10591,'event_spell_summon_nightbane'),
 (10951,'event_spell_medivh_journal'),
 (11111,'event_go_barrel_old_hillsbrad'),
 (11225,'event_taxi_stormcrow'),
