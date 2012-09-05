@@ -49,7 +49,7 @@ CREATE TABLE `db_version` (
 LOCK TABLES `db_version` WRITE;
 /*!40000 ALTER TABLE `db_version` DISABLE KEYS */;
 INSERT INTO `db_version` (`version`, `creature_ai_version`, `cache_id`, `required_12180_01_mangos_spell_learn_spell`) VALUES
-('MaNGOS Cataclysm Patch 4.3.4 Database','ACID 3.1.0 \'Another Wild Adventure\' - Full Release for CMaNGOS (3.3.5a Client)',404,NULL);
+('MaNGOS Cataclysm Alpha Database','ACID 3.1.0 \'Another Wild Adventure\' - Full Release for CMaNGOS (3.3.5a Client)',1,NULL);
 /*!40000 ALTER TABLE `db_version` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

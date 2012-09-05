@@ -10669,7 +10669,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 (1105404,11054,9,1,100,3,0,10,0,0,21,1,0,0,40,1,0,0,20,1,0,0,'Crimson Rifleman - Start Combat Movement and Set Melee Weapon Model and Start Melee Below 10 Yards (Phase 1)'),
 (1105405,11054,9,1,100,3,11,45,0,0,21,0,1,0,20,0,0,0,0,0,0,0,'Crimson Rifleman - Prevent Combat Movement and Prevent Melee at 45 Yards (Phase 1)'),
 (1105406,11054,7,0,100,2,0,0,0,0,22,1,0,0,40,1,0,0,0,0,0,0,'Crimson Rifleman - Set Phase 1 and Set Melee Weapon Model on Evade'),
-(1105801,11058,4,0,100,2,0,0,0,0,1,-177,-178,-178,0,0,0,0,0,0,0,0,'Fras Siabi - Random Say on Aggro'),
+(1105801,11058,4,0,100,2,0,0,0,0,1,-177,-178,-1310,0,0,0,0,0,0,0,0,'Fras Siabi - Random Say on Aggro'),
 (1105802,11058,0,0,100,3,7300,7300,12100,18200,11,7964,0,1,0,0,0,0,0,0,0,0,'Fras Siabi - Cast Smoke Bomb'),
 (1105803,11058,0,0,100,3,4900,4900,7500,21500,11,17294,1,0,0,0,0,0,0,0,0,0,'Fras Siabi - Cast Flame Breath'),
 (1106401,11064,11,0,100,0,0,0,0,0,11,17321,0,0,0,0,0,0,0,0,0,0,'Darrowshire Spirit - Cast Spirit Spawn-in on Spawn'),
@@ -14885,6 +14885,8 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 (1753106,17531,7,0,100,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,'Draenei Protector - Set Phase to 0 on Evade'),
 (1754001,17540,0,0,100,7,6000,8000,11000,13000,11,15785,4,0,0,0,0,0,0,0,0,0,'Fiendish Hound - Cast Mana Burn'),
 (1754002,17540,2,0,100,7,30,0,7000,10000,11,35748,4,0,0,0,0,0,0,0,0,0,'Fiendish Hound - Cast Drain Life at 30% HP'),
+(1754801,17548,0,0,100,3,7000,9000,7000,10000,11,31015,1,0,0,0,0,0,0,0,0,0,'Tito - Cast Annoying Yipping'),
+(1754802,17548,21,0,100,2,0,0,0,0,41,0,0,0,0,0,0,0,0,0,0,0,'Tito - Forced Despawn on Reached Home'),
 (1755401,17554,4,0,100,0,0,0,0,0,12,9527,1,30000,12,9527,1,30000,1,-549,0,0,'Laando - Summon Enraged Hippogryphs on Aggro'),
 (1755501,17555,4,0,100,0,0,0,0,0,12,9527,1,30000,12,9527,1,30000,1,-549,0,0,'Stephanos - Summon Enraged Hippogryphs on Aggro'),
 (1755601,17556,9,0,100,1,0,5,8000,12000,11,30736,1,0,0,0,0,0,0,0,0,0,'Death Ravager - Cast Enraging Bite'),
@@ -17318,10 +17320,10 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 (1955801,19558,1,0,100,0,0,0,0,0,21,0,0,0,20,0,0,0,23,1,0,0,'Amilya Airheart - Prevent Combat Movement and Prevent Melee and Set Phase 1 on Spawn'),
 (1955802,19558,4,0,100,0,0,0,0,0,12,9297,1,30000,12,9297,1,30000,1,-548,0,0,'Amilya Airheart - Summon Enraged Wyverns and Yell on Aggro'),
 (1955803,19558,9,5,100,1,5,30,2300,3900,11,22121,1,0,40,2,0,0,0,0,0,0,'Amilya Airheart - Cast Shoot and Set Ranged Weapon Model (Phase 1)'),
-(1955804,19558,9,5,100,1,30,80,0,0,21,1,1,0,20,1,0,0,0,0,0,0,'Amilya Airheart - Start Combat Movement and Start Melee at 30 Yards (Phase 1)'),
-(1955805,19558,9,5,100,1,0,10,0,0,21,1,0,0,40,1,0,0,20,1,0,0,'Amilya Airheart - Start Combat Movement and Set Melee Weapon Model and Start Melee Below 10 Yards (Phase 1)'),
-(1955806,19558,9,5,100,1,11,25,0,0,21,0,1,0,20,0,0,0,0,0,0,0,'Amilya Airheart - Prevent Combat Movement and Prevent Melee at 25 Yards (Phase 1)');
+(1955804,19558,9,5,100,1,30,80,0,0,21,1,1,0,20,1,0,0,0,0,0,0,'Amilya Airheart - Start Combat Movement and Start Melee at 30 Yards (Phase 1)');
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `action1_param3`, `action2_type`, `action2_param1`, `action2_param2`, `action2_param3`, `action3_type`, `action3_param1`, `action3_param2`, `action3_param3`, `comment`) VALUES
+(1955805,19558,9,5,100,1,0,10,0,0,21,1,0,0,40,1,0,0,20,1,0,0,'Amilya Airheart - Start Combat Movement and Set Melee Weapon Model and Start Melee Below 10 Yards (Phase 1)'),
+(1955806,19558,9,5,100,1,11,25,0,0,21,0,1,0,20,0,0,0,0,0,0,0,'Amilya Airheart - Prevent Combat Movement and Prevent Melee at 25 Yards (Phase 1)'),
 (1955807,19558,2,0,100,0,15,0,0,0,23,1,0,0,0,0,0,0,0,0,0,0,'Amilya Airheart - Set Phase 2 at 15% HP'),
 (1955808,19558,2,3,100,0,15,0,0,0,21,1,0,0,25,0,0,0,1,-47,0,0,'Amilya Airheart - Start Combat Movement and Flee at 15% HP (Phase 2)'),
 (1955809,19558,7,0,100,0,0,0,0,0,22,1,0,0,40,1,0,0,0,0,0,0,'Amilya Airheart - Set Phase 1 and Set Melee Weapon Model on Evade'),
@@ -25604,11 +25606,11 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 (3662005,36620,9,13,100,5,0,40,5000,6000,11,70208,1,0,0,0,0,0,0,0,0,0,'Soulguard Adept (Heroic) - Cast Shadow Bolt (Phase 1)'),
 (3662006,36620,3,13,100,6,7,0,0,0,21,1,0,0,23,1,0,0,0,0,0,0,'Soulguard Adept - Start Combat Movement and Set Phase 2 when Mana is at 7% (Phase 1)'),
 (3662007,36620,9,13,100,6,35,80,0,0,21,1,0,0,0,0,0,0,0,0,0,0,'Soulguard Adept - Start Combat Movement at 35 Yards (Phase 1)'),
-(3662008,36620,9,13,100,6,5,15,0,0,21,0,0,0,0,0,0,0,0,0,0,0,'Soulguard Adept - Prevent Combat Movement at 15 Yards (Phase 1)'),
+(3662008,36620,9,13,100,6,5,15,0,0,21,0,0,0,0,0,0,0,0,0,0,0,'Soulguard Adept - Prevent Combat Movement at 15 Yards (Phase 1)');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `action1_param3`, `action2_type`, `action2_param1`, `action2_param2`, `action2_param3`, `action3_type`, `action3_param1`, `action3_param2`, `action3_param3`, `comment`) VALUES
 (3662009,36620,9,13,100,6,0,5,0,0,21,1,0,0,0,0,0,0,0,0,0,0,'Soulguard Adept - Start Combat Movement Below 5 Yards'),
 (3662010,36620,3,11,100,7,100,15,100,100,23,-1,0,0,0,0,0,0,0,0,0,0,'Soulguard Adept - Set Phase 1 when Mana is above 15% (Phase 2)'),
-(3662011,36620,0,0,100,6,5000,9000,0,0,11,69562,0,1,0,0,0,0,0,0,0,0,'Soulguard Adept - Cast Raise Dead');
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `action1_param3`, `action2_type`, `action2_param1`, `action2_param2`, `action2_param3`, `action3_type`, `action3_param1`, `action3_param2`, `action3_param3`, `comment`) VALUES
+(3662011,36620,0,0,100,6,5000,9000,0,0,11,69562,0,1,0,0,0,0,0,0,0,0,'Soulguard Adept - Cast Raise Dead'),
 (3662012,36620,2,0,100,3,65,0,15000,19000,11,69066,4,1,0,0,0,0,0,0,0,0,'Soulguard Adept (Normal) - Cast Drain Life at 65% HP'),
 (3662013,36620,2,0,100,5,70,0,12000,16500,11,70213,4,1,0,0,0,0,0,0,0,0,'Soulguard Adept (Heroic) - Cast Drain Life at 70% HP'),
 (3662014,36620,14,0,100,3,10000,40,9000,13000,11,69564,6,1,0,0,0,0,0,0,0,0,'Soulguard Adept (Normal) - Cast Shadow Mend on Friendlies'),

@@ -129,28 +129,11 @@ INSERT INTO `instance_template` (`map`, `parent`, `levelMin`, `levelMax`, `Scrip
 (624,0,80,0,''),
 (631,0,80,0,'instance_icecrown_citadel'),
 (632,0,80,0,'instance_forge_of_souls'),
-(643,0,77,0,''),
-(644,0,83,0,''),
-(645,0,77,0,''),
 (649,0,80,0,'instance_trial_of_the_crusader'),
 (650,0,80,0,''),
-(657,0,80,0,''),
 (658,0,75,0,'instance_pit_of_saron'),
 (668,0,75,0,''),
-(669,0,85,0,''),
-(670,0,83,0,''),
-(671,0,85,0,''),
-(720,0,85,0,''),
-(724,0,80,0,'instance_ruby_sanctum'),
-(725,0,80,0,''),
-(754,0,85,0,''),
-(755,0,83,0,''),
-(757,0,85,0,''),
-(859,0,85,0,''),
-(938,0,85,0,''),
-(939,0,85,0,''),
-(940,0,85,0,''),
-(967,0,85,0,'');
+(724,0,80,0,'instance_ruby_sanctum');
 /*!40000 ALTER TABLE `instance_template` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
