@@ -6092,7 +6092,12 @@ INSERT INTO `pool_template` (`entry`, `max_limit`, `description`) VALUES
 (25418,1,'Noblegarden egg, 25418'),
 (25419,1,'Noblegarden egg, 25419'),
 (25420,1,'Noblegarden egg, 25420'),
-(25421,1,'Noblegarden egg, 25421');
+(25421,1,'Noblegarden egg, 25421'),
+(25422,1,'Old Hillsbrad Foothills - Building 1 Barrel Pool'),
+(25423,1,'Old Hillsbrad Foothills - Building 2 Barrel Pool'),
+(25424,1,'Old Hillsbrad Foothills - Building 3 Barrel Pool'),
+(25425,1,'Old Hillsbrad Foothills - Building 4 Barrel Pool'),
+(25426,1,'Old Hillsbrad Foothills - Building 5 Barrel Pool');
 /*!40000 ALTER TABLE `pool_template` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

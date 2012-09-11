@@ -277,7 +277,7 @@ INSERT INTO `areatrigger_teleport` (`id`, `name`, `required_level`, `required_it
 (5505,'Trial of the Champion, entrance',80,0,0,0,0,0,0,650,805.216,618.056,412.393,3.0949),
 (5508,'Trial of the Crusader (exit)',0,0,0,0,0,0,0,571,8515.46,728.92,558.3,4.74206),
 (5510,'Trial of the Champion, exit',0,0,0,0,0,0,0,571,8574.13,791.833,558.528,0.0035),
-(5635,'ICC The Forge of Souls, entrance',80,0,0,0,0,0,0,632,4923.11,2175.02,638.734,2.00109),
+(5635,'ICC The Forge of Souls, entrance',75,0,0,0,0,0,0,632,4923.11,2175.02,638.734,2.00109),
 (5636,'ICC Halls of Reflection (entrance)',75,0,0,0,0,0,0,668,5239.01,1932.64,707.695,0.800565),
 (5637,'ICC Pit of Saron (entrance)',75,0,0,0,0,0,0,658,435.743,212.413,528.709,6.25646),
 (5642,'ICC The Forge of Souls, exit',0,0,0,0,0,0,0,571,5669.52,2005.31,798.042,2.25255),

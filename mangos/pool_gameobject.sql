@@ -34686,7 +34686,22 @@ INSERT INTO `pool_gameobject` (`guid`, `pool_entry`, `chance`, `description`) VA
 (30540,1900,0,'The Deadmines - Large Battered Chest 4'),
 (34850,1900,0,'The Deadmines - Large Battered Chest 5'),
 (92216,1900,0,'The Deadmines - Large Battered Chest 6'),
-(92217,1900,0,'The Deadmines - Large Battered Chest 7');
+(92217,1900,0,'The Deadmines - Large Battered Chest 7'),
+(47277,25422,0,'Old Hillsbrad Foothills - Building 1 - Barrel 1'),
+(93852,25422,0,'Old Hillsbrad Foothills - Building 1 - Barrel 2'),
+(30244,25422,0,'Old Hillsbrad Foothills - Building 1 - Barrel 3'),
+(47273,25422,0,'Old Hillsbrad Foothills - Building 1 - Barrel 4'),
+(47276,25423,0,'Old Hillsbrad Foothills - Building 2 - Barrel 1'),
+(33565,25423,0,'Old Hillsbrad Foothills - Building 2 - Barrel 2'),
+(30286,25423,0,'Old Hillsbrad Foothills - Building 2 - Barrel 3'),
+(34868,25424,0,'Old Hillsbrad Foothills - Building 3 - Barrel 1'),
+(30243,25424,0,'Old Hillsbrad Foothills - Building 3 - Barrel 2'),
+(93853,25424,0,'Old Hillsbrad Foothills - Building 3 - Barrel 3'),
+(30242,25425,0,'Old Hillsbrad Foothills - Building 4 - Barrel 1'),
+(47274,25425,0,'Old Hillsbrad Foothills - Building 4 - Barrel 2'),
+(47275,25426,0,'Old Hillsbrad Foothills - Building 5 - Barrel 1'),
+(30263,25426,0,'Old Hillsbrad Foothills - Building 5 - Barrel 2'),
+(33567,25426,0,'Old Hillsbrad Foothills - Building 5 - Barrel 3');
 /*!40000 ALTER TABLE `pool_gameobject` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
